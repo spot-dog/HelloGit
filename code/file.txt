@@ -1,0 +1,20 @@
+#The practice of git branch 
+KING@KING MINGW64 ~/OneDrive/桌面/hellogit/HelloGit (main)
+$ git checkout -b feature-A
+Switched to a new branch 'feature-A'
+
+KING@KING MINGW64 ~/OneDrive/桌面/hellogit/HelloGit (feature-A)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+KING@KING MINGW64 ~/OneDrive/桌面/hellogit/HelloGit (main)
+$ git branch
+  feature-A
+* main
+
+KING@KING MINGW64 ~/OneDrive/桌面/hellogit/HelloGit (main)
+$ git checkout feature-A
+Switched to branch 'feature-A'
+
+KING@KING MINGW64 ~/OneDrive/桌面/hellogit/HelloGit (feature-A)
